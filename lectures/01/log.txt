@@ -1,0 +1,402 @@
+=== gemini-3.5-flash-lite 試行1 ===
+[model] gemini-3.5-flash-lite
+[質問] AIE2026 の講座の宿題にある「3レベル」とは何ですか？
+
+AIE2026（おそらく「AI Engineer 2026」などの最先端AIエンジニア育成プログラムやコミュニティ、または特定のAI関連講座）の宿題における「**3レベル**」ですね。
+
+文脈によって多少異なる場合がありますが、AI/LLM（大規模言語モデル）を活用した開発やプロンプトエンジニアリング、あるいはAIエージェントの講座において「3レベル」と言った場合、一般的に以下のいずれかの分類を指している可能性が非常に高いです。
+
+---
+
+### パターンA：AIエージェントの自律度・複雑性の3段階（現代のAI講座で最も主流）
+現在、AI開発のトレンドとしてよく使われる「エージェントの高度化レベル（Anthropicなどが提唱する分類に近いもの）」です。
+
+1. **レベル1（プロンプト／単一タスク）：**
+   * 指示に対して1回回答を生成するレベル。ChatGPTの通常の利用や、基本的なAPI呼び出し。
+2. **レベル2（ワークフロー／ルーティン）：**
+   * 人間が定めた手順（ワークフロー）に従って、AIが複数ステップの処理を順番に実行するレベル（RAGや、LangChainの基本的なChainなど）。
+3. **レベル3（自律エージェント）：**
+   * AI自身がゴールを達成するために、次に何をすべきかを自分で考え、ツール（検索やコード実行など）を選び、試行錯誤しながら実行するレベル（ReActフレームワークなど）。
+
+### パターンB：プロンプトエンジニアリングの難易度・習熟度
+宿題や課題のステップアップとして、次のような難易度設定にされている場合です。
+
+1. **レベル1（基礎）：** 役割や出力フォーマットを指定した基本的なプロンプト作成。
+2. **レベル2（応用）：** Few-shotプロンプティング（例示を与える）や、Chain-of-Thought（思考プロセスを段階的に踏ませる）の導入。
+3. **レベル3（発展）：** 外部APIの呼び出しを想定した構造化出力（JSON等）や、システムプロンプトの高度なチューニング。
+
+### パターンC：難易度別（初級・中級・上級）の選択式課題
+単に宿題の難易度が3段階に分かれており、「自分のスキルに合わせてどれか（または全部）を解く」という形式です。
+
+* **Level 1 (Easy / 基礎):** 誰でも取り組める基本問題
+* **Level 2 (Medium / 応用):** 少し応用力を試す問題
+* **Level 3 (Hard / 発展):** チャレンジングな応用・発展問題
+
+---
+
+### 正確な確認方法
+もし「AIE2026」の具体的な教材やスライド、Discord等のコミュニティにアクセスできるのであれば、以下のキーワードで検索してみるとすぐに意図が分かります。
+* 宿題のページにある「Level 1」「Level 2」「Level 3」の具体的な説明文
+* カリキュラム内の「3つのレベル」「Tier 1〜3」といった表記
+
+もし可能であれば、その宿題が出された講座の直近の講義テーマ（例：RAG、ファインチューニング、AIエージェント、プロンプトなど）を教えていただければ、さらに正確に解説できます！
+=== gemini-3.5-flash-lite 試行2 ===
+[model] gemini-3.5-flash-lite
+[質問] AIE2026 の講座の宿題にある「3レベル」とは何ですか？
+
+AIE2026（おそらく「AIエンジニア育成プログラム2026」や関連するAI・プログラミング学習コミュニティ・講座）の宿題における**「3レベル」**とは、受講生のスキルや理解度、あるいは取り組む課題の難易度に合わせて用意された**3段階の課題（または目標設定）**のことを指すのが一般的です。
+
+具体的な内容は講座のカリキュラムによって異なりますが、多くのプログラミングやAIの講座では、以下のような構成で「3レベル」が設定されています。
+
+### 一般的な「3レベル」の構成例
+
+1. **レベル1（基礎・ビギナー向け）**
+   * **内容:** 授業でやったコードをそのまま動かす、穴埋め問題、基本的な用語の理解など。
+   * **目的:** まず手を動かしてエラーを出さずに動かす成功体験を得る。
+
+2. **レベル2（応用・スタンダード向け）**
+   * **内容:** 条件を少し変える、自分で少しコードを追加する、別のデータを使って試してみるなど。
+   * **目的:** 授業の内容を理解し、自分の頭で考えて応用する力をつける。
+
+3. **レベル3（発展・チャレンジ向け）**
+   * **内容:** 応用問題をさらに発展させる、独自の機能を追加する、エラーハンドリング（例外処理）を含めて実装するなど。
+   * **目的:** より実践的なスキルを身につけ、実務レベルに近い課題をクリアする。
+
+---
+
+### 注意点
+AIE2026という特定の講座の正確な定義（例えば「レベル1＝実装、レベル2＝解説、レベル3＝発表」などの特殊な分け方をしている場合もあります）を確認するには、以下のいずれかの方法をとるのが確実です。
+
+* **講座の利用規約・ガイダンス資料・Notionなどのドキュメントを確認する**
+* **講座のチャットツール（DiscordやSlackなど）で講師や他の受講生に質問する**
+
+もし手元にその宿題の具体的な説明文（プロンプトや課題のテキスト）があれば、それを教えていただければ、さらに正確に解説することができます！
+=== gemini-3.5-flash-lite 試行3 ===
+[model] gemini-3.5-flash-lite
+[質問] AIE2026 の講座の宿題にある「3レベル」とは何ですか？
+
+AIE2026（おそらく「AIに関する特定の講座・プログラム2026年版」や、それに類するコミュニティ・学習イベント等）の宿題における**「3レベル」**という言葉は、文脈によっていくつかの解釈がありますが、生成AI（ChatGPTなど）を活用したプロンプトエンジニアリングや、学習の難易度設定においてよく使われる**「3段階の難易度・アプローチ方法」**を指している可能性が非常に高いです。
+
+具体的には、以下のような分類を意味しているケースが一般的です。
+
+### 1. プロンプト（AIへの指示）の高度化の3段階
+AIの回答の質を高めるための、スキルアップの3つのレベルです。
+* **レベル1（初級）：単発の質問・指示**
+  * 例：「〜について教えて」「〜のメールを作って」
+* **レベル2（中級）：役割（ロール）や条件の指定**
+  * 例：「あなたはプロのマーケターです。ターゲット層を20代女性に設定し、〜〜の条件でブログ記事の構成案を作ってください」
+* **レベル3（上級）：フレームワークの活用・高度な条件分岐・Few-shotプロンプティング**
+  * 例：具体的な出力フォーマットを指定したり、過去の例（サンプル）をいくつか与えてそれに倣わせたり、思考のプロセス（Chain of Thought）を指示する。
+
+### 2. 宿題の難易度や取り組み方の3段階
+学習者のスキルや目標に合わせて、3つのコースや課題が用意されている場合です。
+* **レベル1（ベーシック）：** 基礎的な内容。AIを使って言われた通りに課題を完了させる。
+* **レベル2（アドバンス）：** 応用編。少し自分で工夫を加えたり、応用的なプロンプトを使ったりする。
+* **レベル3（エキスパート/マスター）：** 発展編。自動化を取り入れたり、複数のAI機能を組み合わせたりして高度な成果物を目指す。
+
+---
+
+**【確実な確認方法】**
+もし上記に当てはまらない場合や、より正確な答えを知りたい場合は、以下の点を確認してみてください。
+
+* その宿題が出された**スライドや教材の該当ページ**
+* 講義内の**アーカイブ動画**での説明部分
+* 講座の**Slack、Discord、LINEなどのコミュニティ**の質問スレッドや過去のやり取り
+
+もし具体的な講義名（例：〇〇AIスクールなど）が分かれば、さらに正確にお答えできるかもしれません。
+=== gemini-3.8-flash 試行1 ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 49, in <module>
+    main()
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 42, in main
+    print(ask(args.question))
+          ^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 26, in ask
+    response = client.models.generate_content(model=MODEL, contents=question)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 6288, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 6129, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 4668, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1839, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1632, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1608, in _request_once
+    response = self._httpx_client.send(httpx_request, stream=stream)  # type: ignore[union-attr, arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 128, in read
+    return self._sock.recv(max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1245, in recv
+    return self.read(buflen)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1118, in read
+    return self._sslobj.read(len)
+           ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[model] gemini-3.8-flash
+[質問] AIE2026 の講座の宿題にある「3レベル」とは何ですか？
+
+=== gemini-3.8-flash 試行2 ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 49, in <module>
+    main()
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 42, in main
+    print(ask(args.question))
+          ^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 26, in ask
+    response = client.models.generate_content(model=MODEL, contents=question)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 6288, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 6129, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 4668, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1839, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1632, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1608, in _request_once
+    response = self._httpx_client.send(httpx_request, stream=stream)  # type: ignore[union-attr, arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 128, in read
+    return self._sock.recv(max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1245, in recv
+    return self.read(buflen)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1118, in read
+    return self._sslobj.read(len)
+           ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[model] gemini-3.8-flash
+[質問] AIE2026 の講座の宿題にある「3レベル」とは何ですか？
+
+=== gemini-3.8-flash 試行3 ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 49, in <module>
+    main()
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 42, in main
+    print(ask(args.question))
+          ^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/app/ask.py", line 26, in ask
+    response = client.models.generate_content(model=MODEL, contents=question)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 6288, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 6129, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/models.py", line 4668, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1839, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1632, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1608, in _request_once
+    response = self._httpx_client.send(httpx_request, stream=stream)  # type: ignore[union-attr, arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/lecture-ai-engineering-2026/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 128, in read
+    return self._sock.recv(max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1245, in recv
+    return self.read(buflen)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/ssl.py", line 1118, in read
+    return self._sslobj.read(len)
+           ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[model] gemini-3.8-flash
+[質問] AIE2026 の講座の宿題にある「3レベル」とは何ですか？
+
+=== gemini-3.8-flash 再試行1 ===
+[model] gemini-3.8-flash
+[質問] AIE2026 の講座の宿題にある「3レベル」とは何ですか？
+
+モデルが混み合っています（503）。少し待ってから再実行してください。
+終了コード: 1
+=== gemini-3.8-flash 再試行2 ===
+終了コード: 124
+=== gemini-3.8-flash 再試行3 ===
+[model] gemini-3.8-flash
+[質問] AIE2026 の講座の宿題にある「3レベル」とは何ですか？
+
+モデルが混み合っています（503）。少し待ってから再実行してください。
+終了コード: 1
